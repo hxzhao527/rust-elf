@@ -446,7 +446,7 @@ pub fn e_machine_to_str(e_machine: u16) -> Option<&'static str> {
         abi::EM_FT32 => Some("EM_FT32"),
         abi::EM_MOXIE => Some("EM_MOXIE"),
         abi::EM_AMDGPU => Some("EM_AMDGPU"),
-        abi::EM_RISCV => Some("RISC-V"),
+        abi::EM_RISCV => Some("EM_RISCV"),
         abi::EM_BPF => Some("EM_BPF"),
         _ => None,
     }
