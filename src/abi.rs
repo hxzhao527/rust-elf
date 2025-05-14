@@ -3126,7 +3126,6 @@ pub const DT_MIPS_PROTECTED_GOTIDX: u32 = 0x70000028;
 pub const DT_MIPS_OPTIONS: u32 = 0x70000029;
 /// The address of the `.MIPS.interface` section, describing subprogram interfaces
 pub const DT_MIPS_INTERFACE: u32 = 0x7000002a;
-///
 pub const DT_MIPS_DYNSTR_ALIGN: u32 = 0x7000002b;
 /// The size in bytes of the .MIPS.interface section
 pub const DT_MIPS_INTERFACE_SIZE: u32 = 0x7000002c;
